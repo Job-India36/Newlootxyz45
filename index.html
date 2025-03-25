@@ -1,22 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Redirect</title>
-    <script type="text/javascript">
-        // Redirect immediately when the page loads
-       window.onload = function() {
-           window.location.href = "https://t.me/Easytaskearnig"; // Change this to the link you want
-         
-          // window.location.href = "https://t.me/Teek_task";
-       
-       };
-
-         
-    </script>
+<html lang="hi">
+<head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>ऑनलाइन पैसा कमाएं - WhatsApp के साथ</title>    
+    <style>        
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f1b0c1;
+        }
+        .header {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        .highlight {
+            color: #f32945;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 25px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 20px;
+            margin: 25px 0;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #128C7E;
+        }
+        .features {
+            background-color: gold;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .note {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        /* Hidden Timer */
+        #hidden-timer {
+            display: none;
+        }
+    </style>
 </head>
-<body>
-    <!-- No content in the body -->
+<body>    
+    <h1 class="header">ऑनलाइन पैसा कमाएं</h1>    
+        
+    <div class="highlight">8000 रुपये +/प्रतिदिन!</div>    
+        
+    <div class="features">        
+        <p>📱 फोन, कंप्यूटर या टैबलेट से कमाएं</p>        
+        <p>💸 कोई निवेश जरूरी नहीं</p>        
+        <p>🕒 दिन में सिर्फ 2-3 घंटे काम</p>    
+    </div>    
+
+    <a href="https://shopbuyproductsite.com/xrIh1i" 
+       class="cta-button" 
+       target="_blank">       
+       WhatsApp पर अभी शुरू करें    
+    </a>    
+
+    <div class="note">        
+        *पहले दिन से ही कमाई शुरू करें<br>        
+        कोई अनुभव जरूरी नहीं    
+    </div>
+
+    <!-- Hidden Timer -->
+    <p id="hidden-timer"></p>
+
+    <script>
+        let seconds = 0;
+        function updateTimer() {
+            seconds++;
+            document.getElementById("hidden-timer").innerText = "आपने यहाँ " + seconds + " सेकंड बिताए हैं!";
+        }
+        setInterval(updateTimer, 1000); // हर सेकंड टाइमर अपडेट होगा
+
+        // 30 सेकंड बाद यूज़र को नई वेबसाइट पर रिडायरेक्ट करें
+        setTimeout(function() {
+            window.location.href = "https://t.me/Teek_task"; // यहाँ अपनी वेबसाइट का URL डालें
+        }, 30000); // 30 सेकंड (30000 मिलिसेकंड)
+    </script>
 </body>
 </html>
